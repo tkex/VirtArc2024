@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{526e0a49-d3f4-4b97-8fea-5e9360693ca3}">
+		<property name="name">
+			<value>WinLoseSounds</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{51d6dba2-2214-4fea-85a8-22a25236ffb3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{861a107d-9d2a-46b2-aea4-d8738a31c83f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8b059610-3ca5-4dc8-96c6-3620f182cde6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{51d6dba2-2214-4fea-85a8-22a25236ffb3}">
+		<relationship name="effects">
+			<destination>{b7a3dfb9-f72c-4bc3-9cb5-3d91bf302ca1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{861a107d-9d2a-46b2-aea4-d8738a31c83f}" />
+	<object class="MixerBusFader" id="{b7a3dfb9-f72c-4bc3-9cb5-3d91bf302ca1}" />
+</objects>

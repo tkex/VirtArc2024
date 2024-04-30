@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{007bf3ea-b9fb-43c2-abcb-1a300cdba42f}">
+		<property name="assetPath">
+			<value>Airhorn.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.6108843537414965</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{01f34122-1b87-4808-9793-e43affb411fb}</destination>
+		</relationship>
+	</object>
+</objects>

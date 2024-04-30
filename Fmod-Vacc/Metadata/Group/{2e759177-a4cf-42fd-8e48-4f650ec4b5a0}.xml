@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{2e759177-a4cf-42fd-8e48-4f650ec4b5a0}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2de60ee3-f1e3-4d74-8b6f-2115f60995dc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{dbee9c0c-5714-4b36-b461-7521203af48b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8b059610-3ca5-4dc8-96c6-3620f182cde6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2de60ee3-f1e3-4d74-8b6f-2115f60995dc}">
+		<relationship name="effects">
+			<destination>{6ec5bd87-9334-4408-aadd-01f5343ae14d}</destination>
+			<destination>{6682d4cd-5e76-49f9-bbc9-124874584adb}</destination>
+			<destination>{c519b521-200a-4251-b21d-56db64f3f4b7}</destination>
+			<destination>{dfe6a211-2d3f-40b0-802d-4ac9ab322614}</destination>
+			<destination>{1efb1d97-dec5-474a-ac83-8e4872972345}</destination>
+			<destination>{cb66c3d2-7d8c-4f14-a580-9e3f4ecae4d1}</destination>
+			<destination>{ef2a0451-91fa-42e4-950b-544dcf9a4ce9}</destination>
+			<destination>{0e7d0284-270d-4a12-a8ce-66a65c70f4d5}</destination>
+			<destination>{d5b0b484-aa4f-45a2-ac46-de01300e4717}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{dbee9c0c-5714-4b36-b461-7521203af48b}" />
+	<object class="MixerBusFader" id="{6ec5bd87-9334-4408-aadd-01f5343ae14d}" />
+	<object class="SFXReverbEffect" id="{6682d4cd-5e76-49f9-bbc9-124874584adb}">
+		<property name="wetLevel">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="LowpassEffect" id="{c519b521-200a-4251-b21d-56db64f3f4b7}">
+		<property name="cutoff">
+			<value>22000</value>
+		</property>
+	</object>
+	<object class="ChorusEffect" id="{dfe6a211-2d3f-40b0-802d-4ac9ab322614}">
+		<property name="mix">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{1efb1d97-dec5-474a-ac83-8e4872972345}" />
+	<object class="ThreeEQEffect" id="{cb66c3d2-7d8c-4f14-a580-9e3f4ecae4d1}" />
+	<object class="DelayEffect" id="{ef2a0451-91fa-42e4-950b-544dcf9a4ce9}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="level">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{0e7d0284-270d-4a12-a8ce-66a65c70f4d5}" />
+	<object class="GainEffect" id="{d5b0b484-aa4f-45a2-ac46-de01300e4717}" />
+</objects>
